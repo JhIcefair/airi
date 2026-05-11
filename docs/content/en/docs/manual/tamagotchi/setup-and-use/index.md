@@ -7,28 +7,21 @@ authors:
   - name: JhIcefair
     role: Contributing editor (primary)
     kind: person
-publishedAt: 2026-05-05
-publishedAtOverride: May 5, 2026 – evening (UTC+8)
+publishedAt: 2026-05-11
+publishedAtOverride: May 11, 2026 – afternoon (UTC+8)
 ---
 
-Corresponding version: AIRI-0.10.1-windows-x64-setup
-
-::: info Authors
-Lead writing team: MuGewRayce
-
-Contributing editor: JhIcefair (primary)
-:::
+Corresponding version: AIRI-0.10.2
 
 ::: warning Before You Start
 - Some technical functions and operations of AIRI will not be explained in detail in this manual.
-- The primary editor is only responsible for the Chinese version of this manual. Other language versions are AI-translated and then lightly manually corrected, so they may not match the actual software. Please refer to the actual content.
-- Please note that the images included in this manual have been added by non-Mujiu Yunxuan Studio members. Due to technical reasons, these images will not be updated promptly. We appreciate your understanding.
+- The main editor is only responsible for the Chinese version of the manual. Other language versions are currently handled using AI translation with simple manual corrections, and may not match the actual displayed content. Please refer to the actual content.
 - Most of the content in this manual has been explored and researched by the editor-in-chief’s team members themselves, as well as other participants. It may not be consistent with the facts or may contain deviations. Please rely on your own actual experience as the final reference.
 - This manual may not be updated in a timely manner.
-- Due to limitations of capability and time, this manual currently only includes some detailed tutorials for AIRI installed via the installation package on the Windows platform.
+- Due to limitations in capability and time, this manual currently only includes the Windows installation package version and some detailed tutorials for the web version.
 - Some parts of the software use English without translation. This manual attempts to translate those parts, but the final interpretation should follow the actual software.
-- Version updates may change content. This manual only describes the latest version before the writing time. If you encounter differences with other versions, please handle them yourself.
-- If you have additions or questions about this manual, please @jhicefair on the official Project AIRI Discord channel and leave a message.
+- The version updates of AIRI may change some content. This manual only introduces the features of the latest version at the time of writing. For other versions before or after, this manual may retain some feature descriptions; if there are differences, please handle them yourself.
+- If you have any questions about this manual, please @jhicefair and leave a message on the official Project AIRI Discord channel.
 - For any other questions, please leave a message on the official Project AIRI Discord channel.
 - Have fun! AwA
 :::
@@ -54,6 +47,7 @@ Contributing editor: JhIcefair (primary)
   - [Data](#chapter-4-data)
   - [Connection](#chapter-4-connection)
   - [System](#chapter-4-system)
+- [Written at the End](#chapter-ed-toeveryeditor)
 - [Written at the End](#chapter-ed-toeveryeditor)
 
 <a id="chapter-1-installation"></a>
@@ -111,6 +105,8 @@ Once you have your API, keep it safe and do not share it with others.
 ::: info Example
 The steps below use Deepseek as the example provider.
 :::
+
+[Historical Characteristics: Bugs at Startup](#h2-2-1)
 
 ::: tip Regarding a possible bug during the initial startup and the solution
 The first time you start the application, you may encounter this bug: the main interface border flickers, and when you click to expand the pop-up menu, it quickly retracts…
