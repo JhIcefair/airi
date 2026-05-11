@@ -47,6 +47,7 @@ Corresponding version: AIRI-0.10.2
   - [Data](#chapter-4-data)
   - [Connection](#chapter-4-connection)
   - [System](#chapter-4-system)
+- [Web Version Feature Additions](#web-features)
 - [Historical Characteristics & Common Issues](#features-issues)
 - [Written at the End](#chapter-ed-toeveryeditor)
 
@@ -125,6 +126,8 @@ Congratulations! You have completed the initial configuration of Airi.
 
 <a id="chapter-3-main-window"></a>
 ### > Main Window
+
+[Introduction to the Main Interface of the Web Version](#chapter-3-main-web)
 
 This window displays the virtual character. There are three buttons:[Historical characteristics](#h3-1-1)
 
@@ -547,6 +550,10 @@ This page is organized into boxes:
 4. The fourth box allows you to reset desktop settings and state.
 5. The fifth box allows you to reset all provider settings and credentials, or clear every local setting, provider configuration, and model.
 
+::: tip Web Version Feature Description
+The above parts 1 and 4 do not exist on the web page.
+:::
+
 <a id="chapter-4-connection"></a>
 ### > Connection
 
@@ -681,10 +688,102 @@ If screen capture permission has not been granted yet, this page will also show 
 
 ![Airi vision capture tool window](./assets/manual-devtools-vision-capture.avif)
 
-<a id="features-issues"></a>
-## Historical Characteristics & Common Issues
+<a id="web-features"></a>
+## > Web Version Feature Supplement
 
-### Common Issues
+<a id="chapter-3-main-web"></a>
+### > Web Version Main Interface
+
+![Airi Web Interface](./assets/manual-main-web.avif)
+
+Here, you can see your character model and talk directly to it.
+
+Broadly, it is divided into three parts:
+
+- Character model space
+- Chat box
+- Others
+
+Below, we focus on the chat box and the other parts.
+
+#### > Chat Box
+
+The chat box is divided into two sections:
+
+- The upper section is the area that displays and records the conversation history
+- The lower section is the input box, where you can type to converse with the character
+
+Below the lower section, there are three buttons: (text for reference only)
+
+- Conversations (manage conversations; conversations are independent of each other)
+- Send method (choose how to confirm sending a message)
+- Enable voice input
+
+#### > Other Parts
+
+##### > Top Area
+
+Includes three options:
+
+- About
+- Character Card
+- Account & Settings
+
+The third option contains three main sections:
+
+- Account info
+- Profile, Flux, Settings
+- Log out
+
+###### > Profile
+
+If you are logged into Airi, you can manage your account information here.
+
+Details omitted.
+
+###### > Flux
+
+Relevant instructions omitted for now.
+
+###### > Settings
+
+Same as the desktop version settings; see [Chapter 4](#chapter-4-settings) for details.
+
+##### > Bottom Area
+
+Includes four options: (text for reference only)
+
+- Position & Size
+- Delete Chat History
+- Toggle Light/Dark
+- Background
+
+###### > Position & Size
+
+After clicking, you will see three new options on the left side of the option: x, y, scale, as well as a vertical bar on the left side of the web interface. Here, x refers to the model's x-axis position, y refers to the model's y-axis position, and scale refers to the model's zoom (size). You can adjust these three parameters by **clicking and dragging** the vertical bar on the left side of the web interface.
+
+![Adjust position and size on the main interface](./assets/web-position-size.avif)
+
+###### > Delete Chat History
+
+Click to clear all chat history with one click.
+
+::: warning Proceed with caution
+Deleted chats cannot be recovered, so please operate with care!
+:::
+
+###### > Toggle Light/Dark
+
+Switch the interface between "Light" or "Dark" theme.
+
+###### > Background
+
+Change the background of the main interface.
+
+<a id="features-issues"></a>
+## > Historical Characteristics & Common Issues
+
+### > Common Issues
 
 - When upgrading from an older version to version 0.10.2, if you have previously changed the size and position of the model, your model may 'disappear'. If you encounter this problem, please do not worry. You can solve it by resetting the model's scale and position in the model settings interface.
 
@@ -709,7 +808,7 @@ In some of the past versions, an option could also be seen in the top right corn
 - "websocket status" – top right, click to open connection settings where you can configure your WebSocket server address.
 
 <a id="chapter-ed-toeveryeditor"></a>
-## Written at the End
+## > Written at the End
 
 This manual is primarily written by non-official personnel but submitted to the official website. Although content maintenance is usually handled by members of the Mujiu Yunxuan Studio, we sincerely hope that all friends who wish to edit this document or have already edited it will leave your name in the author section at the beginning. Whether you make content changes or formatting adjustments, we welcome everyone to join us in enriching and optimizing this manual, contributing your own strength—from anyone—to the Airi project and to this manual!
 
